@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+    <script src="https://kit.fontawesome.com/0fe61f7671.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&family=Poppins:wght@100;300;400;500;600;700;800&family=Raleway:wght@200;300&family=Roboto:wght@400;500&display=swap');
+        /* navber secction style */
+        *{
+            font-family: 'Roboto', sans-serif;
+        }
+        nav{
+            display: block;
+            background-color:blueviolet ;
+            padding: 2px;
+        }
+        nav ul{
+            display: flex;
+            justify-content: space-between;
+        }
+        nav ul li{
+            list-style: none;
+            margin-right: 15px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: #FFF;
+        }
+        .menu a:hover{
+            border-bottom: 2px solid tomato;
+            transition: 0.2s all;
+        }
+        .sign-in{
+            display: flex;
+        }
+        .menu{
+            display: flex;
+            
+
+        }
+        .login-section{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .form-containet{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+
+        }
+        .form-containet input{
+            margin-top: 20px;
+            padding: 10px;
+        }
+        #submit{
+            border: none;
+            background-color: tomato;
+            font-weight: bold;
+            border-radius: 50px;
+            cursor: pointer;
+            color: #fff;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+        <span class="menu">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Business</a></li>
+            <li><a href="">Contact</a></li>
+        </span>
+           <span class="sign-in">
+            <li><a href=""><i class="fa fa-user"></i></a></li>
+            <li><a href=""> <i class="fa-solid fa-right-from-bracket"></i></a></li>
+           
+           </span>
+        </ul>
+    </nav>
+
+    <section class="login-section">
+        <form action="" class="form-containet">
+            <h2>Please Login</h2>
+            <input type="email" name="" id="" placeholder="Enter email" required>
+            <input type="password" name="" id="" placeholder="password" required>
+            <input type="submit" value="Login" id="submit">
+        </form>
+    </section>
+    
+</body>
+</html>
