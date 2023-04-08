@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calander </title>
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&family=Poppins:wght@100;300;400;500;600;700;800&family=Raleway:wght@200;300&family=Roboto:wght@400;500&display=swap');
+        /* navber secction style */
+        *{
+            font-family: 'Roboto', sans-serif;
+        }
+        .calander{
+           
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items:center;
+
+        }
+        .month{
+        
+            width: 50%;
+            display: grid;
+            grid-template-columns: repeat(7,1fr);
+            justify-items: center;
+            row-gap:20px;
+            column-gap:10px;
+
+            
+        }
+        .select{
+            background-color: blueviolet;
+            border-radius: 15px;
+            color: #fff;
+        }
+        .date{
+            padding:5px 5px;
+        }
+        .date:hover{
+            background-color: rgb(171, 170, 170);
+            border-radius: 20px;
+            cursor: pointer;
+            color: black;
+        }
+        .others-month{
+            color: lightgray;
+        }
+        .day{
+            font-size: 12px;
+        }
+        .off-day{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="calander">
+       <h3>January  2023</h3>
+       <div class="month">
+        <div class="day">S</div>
+        <div class="day">M</div>
+        <div class="day">T</div>
+        <div class="day">W</div>
+        <div class="day">T</div>
+        <div class="day off-day">F</div>
+        <div class="day off-day">S</div>
+        <div class="date others-month">30</div>
+        <div class="date others-month">31</div>
+        <div class="date">01</div>
+        <div class="date">02</div>
+        <div class="date">03</div>
+        <div class="date off-day">04</div>
+        <div class="date off-day">05</div>
+        <div class="date">06</div>
+        <div class="date">07</div>
+        <div class="date">08</div>
+        <div class="date">09</div>
+        <div class="date">10</div>
+        <div class="date off-day">11</div>
+        <div class="date off-day">12</div>
+        <div class="date">13</div>
+        <div class="date select">14</div>
+        <div class="date">15</div>
+        <div class="date">16</div>
+        <div class="date">17</div>
+        <div class="date off-day">18</div>
+        <div class="date off-day">19</div>
+        <div class="date">20</div>
+        <div class="date">21</div>
+        <div class="date">22</div>
+        <div class="date">23</div>
+        <div class="date">24</div>
+        <div class="date off-day">25</div>
+        <div class="date off-day">26</div>
+        <div class="date">27</div>
+        <div class="date">28</div>
+        <div class="date">29</div>
+        <div class="date">30</div>
+        <div class="date others-month">01</div>
+        <div class="date others-month">02</div>
+        <div class="date others-month">03</div>
+       </div>
+    </div>
+    
+</body>
+</html>
